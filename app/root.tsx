@@ -1,3 +1,4 @@
+import styles from "./tailwind.css";
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
 import {
   Link,
