@@ -1,9 +1,9 @@
 function Home () {
   return (
     <div>
-      <h1>Welcome to Remix!</h1>
+      <h1>Welcome to Crack of the Bat!</h1>
       <p>
-        Remix is a full-stack web framework
+        Instruction & Showcase baseball and softball teams
       </p>
     </div>
   )

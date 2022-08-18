@@ -71,12 +71,12 @@ function Layout({ children }: React.PropsWithChildren<{}>) {
     <>
     <nav className="navbar">
       <Link to='/' className='logo'>
-        Remix
+        Crack of the Bat
       </Link>
 
       <ul className="nav">
         <li>
-            <Link to='/posts'>Posts</Link>
+            <Link to='/teams'>Teams</Link>
         </li>
       </ul>
     </nav>

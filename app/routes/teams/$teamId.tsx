@@ -1,13 +1,13 @@
 import {useParams} from "@remix-run/react";
 
-function post() {
+function team() {
     const params = useParams()
 
   return (
     <div>
-      <h1>Post {params.postId}</h1>
+      <h1>Teams {params.teamsId}</h1>
     </div>)
 }
 
-export default post
+export default team
 

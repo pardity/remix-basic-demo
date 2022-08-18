@@ -1,10 +1,10 @@
  import {Outlet} from "@remix-run/react";
 
-function Posts() {
+function Teams() {
   return (
     <>
         <Outlet />
     </>
   )
 }
-export default Posts
+export default Teams
