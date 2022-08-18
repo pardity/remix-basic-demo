@@ -20,7 +20,7 @@ function PostItems() {
     <div>
       <h1>Posts</h1>
       <ul className="posts-list">
-      {posts.map((post) => (
+      {posts?.map((post) => (
             <li key={post.id}>
                 <Link to={post.id}>    
                     <h3>{post.title}</h3>
